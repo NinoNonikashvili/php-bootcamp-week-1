@@ -9,10 +9,8 @@
 
 
 ## Overview
-- this is a one-page project where user can enter his/her information(name, last name, image) and the program validates it and outputs back to the screen. the ideas that were taken in mind during building process are: 
+- this is a one-page project where user can enter his/her information(name, last name, image).the program validates the data and outputs it back to the screen. the ideas that were taken in mind during building process are: 
     1. avoiding code duplication - I tried to create separate files for reusable codes.
-    2. security issues - I have used post method for deleting items to minimize the risk of sql injection.
-    3. PDO - I have used PDO to communicate with the database.
 
 
 ### Screenshot
@@ -26,12 +24,10 @@
       <img
         src="https://user-images.githubusercontent.com/61002720/201485589-cad2f87b-a4a7-4bea-8e58-e52ba91796eb.png"
         width="30%"
-
         align="top"
       />
       <img
           src="https://user-images.githubusercontent.com/61002720/201485585-ab37bd20-070e-4624-bdbe-83d832621d1c.png"
-
           width="30%"
           align="top"
 
