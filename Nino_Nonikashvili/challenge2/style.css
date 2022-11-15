@@ -1,0 +1,44 @@
+form{
+    width: 30%;
+    margin:0 auto;
+}
+.output{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin:0 auto;
+}
+.table{
+    width:40%;
+}
+
+p{
+    margin:0 20px 0 0;
+    padding: 0;;
+}
+h1{
+    text-align: center;
+}
+.form-wrapper{
+    padding:30px;
+    background-color: #797dad;
+    width:100%;
+}
+body{
+    background-color: #e5e5ff;
+}
+.inline_block{
+    display: inline-block;
+}
+.block{
+    display: block;
+}
+.table-head{
+    border-bottom: 1px solid gray;
+}
+.follower-img{
+    width:50px;
+}
+.alert{
+    margin:15px 0;
+}
