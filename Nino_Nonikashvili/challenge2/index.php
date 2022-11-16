@@ -15,13 +15,12 @@ if($_SERVER['REQUEST_METHOD']==='POST')
     <form action="index.php" method="POST">
       <div class="mb-3">
         <label for="user_name" class="form-label">Username</label>
-        <input type="text" name="user_name" class="form-control" id="user_name" value="<?php echo $user_name?>">
-      </div>
-      <?php if(!empty($errors[0])) : ?>
-        <div class="alert alert-danger">
+        <input type="text" name="user_name" class="form-control <?php echo isset($errors[0]) ? "is-invalid" : ""?>" id="user_name" value="<?php echo $user_name?>" >
+        <div class="invalid-feedback">
             <?php echo $errors[0]?>
         </div>
-      <?php endif ?>
+      </div>
+
       <div class="mb-3 inline_block">
         <p>Show me: </p>
       </div>
