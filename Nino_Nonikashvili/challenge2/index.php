@@ -1,10 +1,20 @@
 <?php
+/**
+ * Index file.
+ *
+ * PHP Version 8.1.10
+ *
+ * @category Challenge2
+ * @package  Challenge2
+ * @author   Nino Nonikashvili <nonikashvilinino8799@gmail.com>
+ * @license  no license
+ * @link     no link
+ */
 require_once 'functions.php';
 require_once 'data_declarations.php';
 
-if($_SERVER['REQUEST_METHOD']==='POST')
-{
-  require_once 'validations.php';
+if ($_SERVER['REQUEST_METHOD']==='POST') {
+    require_once 'validations.php';
 }
 ?>
 
@@ -41,7 +51,7 @@ if($_SERVER['REQUEST_METHOD']==='POST')
       <?php if(!empty($errors[2])) : ?>
         <div class="alert alert-danger">
         <?php echo $errors[2] ?>
-      <?php elseif(!empty($errors[3])): ?>  
+      <?php elseif (!empty($errors[3])): ?>  
         <?php echo $errors[3] ?>
         </div>   
         <?php endif ?>
